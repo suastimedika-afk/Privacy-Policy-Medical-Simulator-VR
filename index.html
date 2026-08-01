@@ -1,139 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Medical Simulator VR - Privacy Policy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Medical Simulator VR">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Simulator VR - Privacy Policy</title>
 
-    <style>
-        *{
-            box-sizing:border-box;
-            margin:0;
-            padding:0;
-            font-family:Arial,Helvetica,sans-serif;
-        }
+<meta name="description" content="Privacy Policy for Medical Simulator VR">
 
-        body{
-            min-height:100vh;
-            background:linear-gradient(135deg,#0f4c75,#1fa2a6,#8fd3c8);
-            color:#333;
-        }
+<style>
 
-        header{
-            position:fixed;
-            top:0;
-            left:0;
-            width:100%;
-            background:rgba(0,0,0,.25);
-            backdrop-filter:blur(8px);
-            padding:14px 32px;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            color:#fff;
-            z-index:1000;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
 
-        .logo{
-            font-size:20px;
-            font-weight:bold;
-        }
+html{
+    scroll-behavior:smooth;
+}
 
-        nav a{
-            color:#fff;
-            text-decoration:none;
-            margin-left:24px;
-            font-size:14px;
-        }
+body{
 
-        nav a:hover{
-            text-decoration:underline;
-        }
+    background:linear-gradient(135deg,#0f4c75,#1fa2a6,#8fd3c8);
+    color:#333;
+    line-height:1.7;
 
-        .container{
-            max-width:900px;
-            margin:120px auto 50px;
-            background:#fff;
-            border-radius:10px;
-            padding:35px;
-            line-height:1.7;
-            box-shadow:0 10px 25px rgba(0,0,0,.15);
-        }
+}
 
-        h1{
-            color:#0f4c75;
-            margin-bottom:8px;
-        }
+header{
 
-        .updated{
-            color:#666;
-            margin-bottom:25px;
-            font-size:14px;
-        }
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
 
-        h2{
-            color:#0f4c75;
-            margin-top:35px;
-            margin-bottom:12px;
-            border-bottom:2px solid #dfeff5;
-            padding-bottom:6px;
-        }
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-        h3{
-            color:#145374;
-            margin-top:20px;
-            margin-bottom:10px;
-            font-size:17px;
-        }
+    padding:18px 45px;
 
-        p{
-            margin:12px 0;
-        }
+    background:rgba(0,0,0,.25);
+    backdrop-filter:blur(10px);
 
-        ul{
-            margin-top:10px;
-            margin-left:22px;
-        }
+}
 
-        li{
-            margin-bottom:8px;
-        }
+.logo{
 
-        a{
-            color:#0f4c75;
-        }
+    color:white;
+    font-size:22px;
+    font-weight:bold;
 
-        footer{
-            color:#fff;
-            text-align:center;
-            padding:25px;
-            font-size:14px;
-        }
+}
 
-        @media(max-width:768px){
+nav a{
 
-            header{
-                flex-direction:column;
-                gap:10px;
-            }
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
 
-            nav{
-                display:flex;
-                flex-wrap:wrap;
-                justify-content:center;
-            }
+}
 
-            nav a{
-                margin:6px 10px;
-            }
+nav a:hover{
 
-            .container{
-                margin:150px 15px 30px;
-                padding:25px;
-            }
-        }
-    </style>
+    opacity:.8;
+
+}
+
+.hero{
+
+    padding-top:130px;
+    padding-bottom:50px;
+    text-align:center;
+    color:white;
+
+}
+
+.hero h1{
+
+    font-size:42px;
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+    opacity:.9;
+
+}
+
+.card{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+    padding:45px;
+
+    margin-bottom:60px;
+
+}
+
+.toc{
+
+    background:#eef8fb;
+
+    border-left:5px solid #0f4c75;
+
+    padding:20px;
+
+    border-radius:8px;
+
+    margin-bottom:35px;
+
+}
+
+.toc h3{
+
+    color:#0f4c75;
+    margin-bottom:10px;
+
+}
+
+.toc ul{
+
+    margin-left:18px;
+
+}
+
+.toc li{
+
+    margin:8px 0;
+
+}
+
+section{
+
+    margin-top:45px;
+
+}
+
+section h2{
+
+    color:#0f4c75;
+
+    border-bottom:2px solid #dcecf3;
+
+    padding-bottom:8px;
+
+    margin-bottom:20px;
+
+}
+
+section h3{
+
+    color:#145374;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+p{
+
+    margin-bottom:15px;
+
+}
+
+ul{
+
+    margin-left:25px;
+
+}
+
+li{
+
+    margin-bottom:10px;
+
+}
+
+.notice{
+
+    background:#f5fbff;
+
+    border-left:5px solid #1fa2a6;
+
+    padding:18px;
+
+    border-radius:8px;
+
+    margin:20px 0;
+
+}
+
+footer{
+
+    text-align:center;
+
+    color:white;
+
+    padding:35px;
+
+}
+
+a{
+
+    color:#0f4c75;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+nav{
+
+margin-top:15px;
+
+}
+
+nav a{
+
+display:inline-block;
+
+margin:8px;
+
+}
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+.card{
+
+margin:20px;
+
+padding:25px;
+
+}
+
+}
+
+</style>
 
 </head>
 
@@ -142,95 +269,172 @@
 <header>
 
 <div class="logo">
+
 Medical Simulator VR
+
 </div>
 
 <nav>
+
 <a href="https://suastimedika-afk.github.io/Medical-Simulator-VR/">Home</a>
-<a href="https://suastimedika-afk.github.io/Privacy-Policy-Medical-Simulator-VR/">Privacy Policy</a>
+
+<a href="#">Privacy Policy</a>
+
 </nav>
 
 </header>
 
-<div class="container">
+<div class="hero">
 
-<h1>Privacy Policy – Medical Simulator VR</h1>
-
-<div class="updated">
-Last Updated: August 1, 2026
-</div>
+<h1>Privacy Policy</h1>
 
 <p>
-Welcome to <strong>Medical Simulator VR</strong>. We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains what information we collect, how we use it, and how we safeguard it when you use our application.
+
+Last Updated: August 1, 2026
+
 </p>
+
+</div>
+
+<div class="card">
+
+<div class="toc">
+
+<h3>Quick Navigation</h3>
+
+<ul>
+
+<li>Information We Collect</li>
+
+<li>How We Use Your Information</li>
+
+<li>Meta Horizon Add-ons</li>
+
+<li>Data Sharing</li>
+
+<li>Data Security</li>
+
+<li>Data Retention</li>
+
+<li>Your Rights</li>
+
+<li>Contact Us</li>
+
+</ul>
+
+</div>
+
+<section>
 
 <h2>1. Information We Collect</h2>
 
 <h3>Meta Platform Information</h3>
 
 <p>
+
 When you use Medical Simulator VR through the Meta Horizon platform, the application may access limited information provided by Meta, including:
+
 </p>
 
 <ul>
+
 <li>Meta User ID</li>
-<li>Limited Meta profile information, where required by Meta platform features.</li>
+
+<li>Limited Meta profile information when required by Meta platform features.</li>
+
 </ul>
 
-<p>
-Medical Simulator VR only accesses the minimum Meta account information required to enable Meta platform features and downloadable content (DLC) purchased by the user.
-We do not access or collect additional Meta account information beyond what is necessary for these purposes.
-</p>
+<div class="notice">
+
+Medical Simulator VR only accesses the minimum Meta account information required to enable Meta platform features and purchased <strong>Meta Horizon Add-ons</strong>. We do not collect additional Meta account information beyond what is necessary for these purposes.
+
+</div>
 
 <h3>Application Data</h3>
 
 <ul>
+
 <li>Training progress.</li>
+
 <li>Simulation performance.</li>
+
 <li>Module completion.</li>
+
 <li>Scores.</li>
+
 <li>Certification records (where applicable).</li>
+
 </ul>
 
 <h3>Technical Information</h3>
 
 <ul>
-<li>Device information required for compatibility.</li>
+
 <li>Crash reports.</li>
+
 <li>Error logs.</li>
+
 <li>Performance diagnostics.</li>
+
+<li>Device compatibility information.</li>
+
 </ul>
+
+</section>
+
+<section>
 
 <h2>2. How We Use Your Information</h2>
 
 <ul>
+
 <li>Provide medical simulation and educational content.</li>
+
 <li>Save training progress.</li>
-<li>Improve application performance and stability.</li>
-<li>Diagnose and resolve technical issues.</li>
-<li>Verify ownership of the application.</li>
-<li>Validate downloadable content (DLC) and in-app purchases through Meta Horizon.</li>
-<li>Restore previously purchased downloadable content when supported by Meta.</li>
+
+<li>Improve application stability and performance.</li>
+
+<li>Diagnose technical issues.</li>
+
+<li>Verify ownership of Medical Simulator VR.</li>
+
+<li>Validate purchases of Meta Horizon Add-ons.</li>
+
+<li>Restore previously purchased Meta Horizon Add-ons.</li>
+
 </ul>
 
 <p>
-We do <strong>not</strong> use your personal information for advertising, profiling, analytics-based marketing, or targeted advertising.
+
+We do <strong>not</strong> use your personal information for advertising, profiling, targeted advertising, or marketing purposes.
+
 </p>
 
-<h2>3. Downloadable Content (DLC)</h2>
+</section>
 
-<p>
-Medical Simulator VR may offer downloadable content (DLC) through the Meta Horizon Store.
-</p>
+<section>
 
-<p>
-To verify ownership of purchased content, restore purchases, and grant access to downloadable content, the application may use information provided by Meta, including your Meta User ID or other identifiers required by Meta's commerce services.
-</p>
+<h2>3. Meta Horizon Add-ons</h2>
 
 <p>
-All payment transactions are securely processed by Meta through the Meta Horizon platform.
-Medical Simulator VR does not collect, store, or process your payment card information or other payment credentials.
+
+Medical Simulator VR may offer optional <strong>Add-ons</strong> through the Meta Horizon Store.
+
 </p>
+
+<p>
+
+To verify ownership, restore purchases, and grant access to purchased Add-ons, the application may use Meta User ID or other identifiers made available by Meta's commerce services.
+
+</p>
+
+<p>
+
+Medical Simulator VR does not collect, store, or process payment card information. All purchases are securely processed by Meta.
+</p>
+
+</section>
+<section>
 
 <h2>4. Data Sharing</h2>
 
@@ -239,12 +443,16 @@ We do <strong>not sell</strong> your personal information.
 </p>
 
 <p>
-We only use Meta platform information as necessary to provide the features described in this Privacy Policy.
+Medical Simulator VR only uses Meta platform information as necessary to provide application functionality, verify ownership, and enable purchased Meta Horizon Add-ons.
 </p>
 
 <p>
-We may disclose information only when required by applicable law or to comply with valid legal obligations.
+We may disclose information only if required to comply with applicable laws or valid legal obligations.
 </p>
+
+</section>
+
+<section>
 
 <h2>5. Third-Party Services</h2>
 
@@ -254,43 +462,66 @@ Meta may collect and process information according to its own Privacy Policy and
 </p>
 
 <p>
-For more information, please visit:
+For additional information regarding Meta's privacy practices, please visit:
 </p>
 
 <p>
+
 <a href="https://www.meta.com/legal/privacy-policy/" target="_blank">
-Meta Privacy Policy
+https://www.meta.com/legal/privacy-policy/
 </a>
+
 </p>
+
+</section>
+
+<section>
 
 <h2>6. Data Security</h2>
 
 <p>
-We implement reasonable administrative, technical, and organizational safeguards to protect information against unauthorized access, alteration, disclosure, or destruction.
+We implement reasonable administrative, technical, and organizational safeguards to protect information against unauthorized access, disclosure, alteration, or destruction.
 </p>
 
 <p>
-While no method of electronic storage or transmission is completely secure, we strive to protect your information using industry-standard security practices.
+Although no method of electronic storage or Internet transmission is completely secure, we continuously work to protect your information using industry-standard security practices.
 </p>
+
+</section>
+
+<section>
 
 <h2>7. Data Retention</h2>
 
 <p>
-Application data is retained only for as long as necessary to provide the application's functionality, maintain user progress, comply with legal obligations, or resolve disputes.
+Application data is retained only for as long as necessary to provide the application's functionality, maintain user progress, comply with applicable legal obligations, or resolve disputes.
 </p>
+
+</section>
+
+<section>
 
 <h2>8. Your Rights</h2>
 
 <p>
-Depending on applicable laws, you may have the right to:
+Depending on your location and applicable laws, you may have the right to:
 </p>
 
 <ul>
+
 <li>Request access to your personal information.</li>
-<li>Request correction of inaccurate information.</li>
+
+<li>Request correction of inaccurate personal information.</li>
+
 <li>Request deletion of your application data where applicable.</li>
-<li>Contact us regarding any questions about this Privacy Policy.</li>
+
+<li>Contact us regarding questions about this Privacy Policy.</li>
+
 </ul>
+
+</section>
+
+<section>
 
 <h2>9. Age Requirement</h2>
 
@@ -299,34 +530,68 @@ Medical Simulator VR is intended for healthcare professionals, educators, and me
 </p>
 
 <p>
-Users should be at least <strong>18 years old</strong> or meet the minimum legal age required in their jurisdiction.
+Users should be at least <strong>18 years of age</strong> or meet the minimum legal age required in their jurisdiction.
 </p>
 
 <p>
-The application contains realistic medical procedures and anatomical representations intended solely for educational and professional training.
+The application contains realistic medical procedures and anatomical representations intended solely for medical education and professional training.
 </p>
 
-<h2>10. Changes to This Privacy Policy</h2>
+</section>
+
+<section>
+
+<h2>10. Compliance with Meta Developer Policies</h2>
+
+<div class="notice">
+
+Medical Simulator VR accesses Meta platform information only as necessary to:
+
+<ul>
+
+<li>Verify ownership of the application.</li>
+
+<li>Enable Meta Horizon platform features.</li>
+
+<li>Validate purchased Meta Horizon Add-ons.</li>
+
+<li>Restore previously purchased Add-ons.</li>
+
+</ul>
+
+The application does not use Meta platform information for advertising, user profiling, analytics-based marketing, or any unrelated purposes.
+
+</div>
+
+</section>
+
+<section>
+
+<h2>11. Changes to This Privacy Policy</h2>
 
 <p>
 We may update this Privacy Policy from time to time.
-Any changes will become effective upon publishing the updated version of this page.
-The "Last Updated" date above indicates when this Privacy Policy was most recently revised.
+When changes are made, the "Last Updated" date at the top of this page will be revised.
+Continued use of Medical Simulator VR after changes become effective constitutes acceptance of the updated Privacy Policy.
 </p>
 
-<h2>11. Contact Us</h2>
+</section>
+
+<section>
+
+<h2>12. Contact Us</h2>
 
 <p>
-If you have any questions regarding this Privacy Policy, please contact us:
+
+<strong>Developer</strong><br>
+
+Suasti Medika
+
 </p>
 
 <p>
 
-<strong>Developer:</strong> Suasti Medika
-
-<br><br>
-
-<strong>Email:</strong>
+<strong>Email</strong><br>
 
 <a href="mailto:suastimedika@gmail.com">
 suastimedika@gmail.com
@@ -334,13 +599,18 @@ suastimedika@gmail.com
 
 </p>
 
+</section>
+
 </div>
 
 <footer>
 
+<p>
 © 2026 Medical Simulator VR. All rights reserved.
+</p>
 
 </footer>
 
 </body>
+
 </html>
